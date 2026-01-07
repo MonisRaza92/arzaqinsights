@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
                             opacity: [0.1, 0.2, 0.1]
                         }}
                         transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
-                        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[radial-gradient(circle_at_center,_white_0%,_transparent_70%)] opacity-20 blur-[120px]"
+                        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[radial-gradient(circle_at_center,white_0%,transparent_70%)] opacity-20 blur-[120px]"
                     />
                 </div>
 

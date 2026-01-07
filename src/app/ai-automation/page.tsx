@@ -51,12 +51,12 @@ export default function AIAutomation() {
                             y: [0, -50, 0]
                         }}
                         transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-                        className="absolute top-0 left-1/4 w-[900px] h-[900px] bg-[radial-gradient(circle_at_center,_white_0%,_transparent_70%)] opacity-10 blur-[130px]"
+                        className="absolute top-0 left-1/4 w-[900px] h-[900px] bg-[radial-gradient(circle_at_center,white_0%,transparent_70%)] opacity-10 blur-[130px]"
                     />
                     <motion.div
                         animate={{ y: ["-100%", "100%"] }}
                         transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
-                        className="absolute inset-0 bg-gradient-to-b from-transparent via-white/[0.03] to-transparent h-1/2 w-full"
+                        className="absolute inset-0 bg-linear-to-b from-transparent via-white/3 to-transparent h-1/2 w-full"
                     />
                 </div>
 
@@ -150,7 +150,7 @@ export default function AIAutomation() {
                                     <Bot size={28} />
                                 </div>
                                 <h3 className="text-2xl font-bold mb-4 font-heading">{useCase.title}</h3>
-                                <p className="text-lg opacity-80 mb-10 flex-grow font-medium">{useCase.desc}</p>
+                                <p className="text-lg opacity-80 mb-10 grow font-medium">{useCase.desc}</p>
                                 <div className="w-full glass bg-background/50 p-6 rounded-2xl flex items-center justify-between border-transparent group-hover:border-border transition-all">
                                     <span className="text-xs font-bold uppercase tracking-widest opacity-40">Impact Metrics</span>
                                     <span className="text-sm font-bold opacity-100">{useCase.benefit}</span>

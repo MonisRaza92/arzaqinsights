@@ -139,7 +139,7 @@ export default function ServiceDetail() {
                             opacity: [0.1, 0.25, 0.1]
                         }}
                         transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                        className="absolute -top-40 -left-40 w-[1000px] h-[1000px] bg-[radial-gradient(circle_at_center,_white_0%,_transparent_70%)] opacity-20 blur-[150px]"
+                        className="absolute -top-40 -left-40 w-[1000px] h-[1000px] bg-[radial-gradient(circle_at_center,white_0%,transparent_70%)] opacity-20 blur-[150px]"
                     />
                 </div>
 
@@ -210,7 +210,7 @@ export default function ServiceDetail() {
                                 transition={{ delay: i * 0.1 }}
                                 className="flex items-start space-x-10 group"
                             >
-                                <div className="w-16 h-16 rounded-[1.5rem] bg-foreground/5 border border-foreground/10 flex items-center justify-center shrink-0 font-bold text-2xl font-heading group-hover:bg-foreground group-hover:text-background transition-all">
+                                <div className="w-16 h-16 rounded-3xl bg-foreground/5 border border-foreground/10 flex items-center justify-center shrink-0 font-bold text-2xl font-heading group-hover:bg-foreground group-hover:text-background transition-all">
                                     {i + 1}
                                 </div>
                                 <div className="pt-2">

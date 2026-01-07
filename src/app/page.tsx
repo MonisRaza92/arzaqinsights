@@ -71,7 +71,7 @@ export default function Home() {
               opacity: [0.3, 0.5, 0.3]
             }}
             transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-            className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-[radial-gradient(circle_at_center,_var(--color-primary)_0%,_transparent_70%)] opacity-30 blur-[100px]"
+            className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-[radial-gradient(circle_at_center,var(--color-primary)_0%,transparent_70%)] opacity-30 blur-[100px]"
           />
         </div>
 
@@ -123,7 +123,7 @@ export default function Home() {
         {/* Floating Minimal Element */}
         <div className="absolute bottom-10 left-10 hidden lg:block">
           <div className="flex items-center space-x-4 opacity-30">
-            <div className="w-12 h-[1px] bg-foreground" />
+            <div className="w-12 h-px bg-foreground" />
             <span className="text-[10px] font-black uppercase tracking-[0.5em] rotate-180 [writing-mode:vertical-lr]">Established 2024</span>
           </div>
         </div>

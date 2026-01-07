@@ -67,7 +67,7 @@ export default function Industries() {
                             opacity: [0.1, 0.3, 0.1]
                         }}
                         transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
-                        className="absolute top-1/2 right-1/4 w-[1200px] h-[1200px] bg-[radial-gradient(circle_at_center,_white_0%,_transparent_70%)] opacity-20 blur-[180px]"
+                        className="absolute top-1/2 right-1/4 w-[1200px] h-[1200px] bg-[radial-gradient(circle_at_center,white_0%,transparent_70%)] opacity-20 blur-[180px]"
                     />
                 </div>
 

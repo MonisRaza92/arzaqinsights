@@ -72,7 +72,7 @@ export default function Services() {
                             opacity: [0.1, 0.3, 0.1]
                         }}
                         transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                        className="absolute bottom-0 left-0 w-[1000px] h-[1000px] bg-[radial-gradient(circle_at_center,_white_0%,_transparent_70%)] opacity-20 blur-[150px]"
+                        className="absolute bottom-0 left-0 w-[1000px] h-[1000px] bg-[radial-gradient(circle_at_center,white_0%,transparent_70%)] opacity-20 blur-[150px]"
                     />
                 </div>
 
@@ -146,13 +146,13 @@ export default function Services() {
                                         </Magnetic>
                                     </div>
                                 </div>
-                                <div className="lg:w-1/2 w-full aspect-[4/3] bg-surface rounded-[4rem] border border-border flex items-center justify-center relative overflow-hidden group">
+                                <div className="lg:w-1/2 w-full aspect-4/3 bg-surface rounded-[4rem] border border-border flex items-center justify-center relative overflow-hidden group">
                                     <div className="absolute inset-0 premium-grid opacity-5 group-hover:opacity-10 transition-opacity" />
                                     <motion.div
                                         initial={{ scale: 1 }}
                                         whileHover={{ scale: 1.05 }}
                                         transition={{ duration: 0.8 }}
-                                        className="w-full h-full bg-[radial-gradient(circle_at_center,_var(--color-primary)_0%,_transparent_70%)] opacity-5"
+                                        className="w-full h-full bg-[radial-gradient(circle_at_center,var(--color-primary)_0%,transparent_70%)] opacity-5"
                                     />
                                     <div className="absolute inset-0 flex items-center justify-center p-20">
                                         <div className="w-full h-full border border-foreground/10 rounded-[3rem] glass flex items-center justify-center">

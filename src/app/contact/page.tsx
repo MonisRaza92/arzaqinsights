@@ -32,7 +32,7 @@ export default function Contact() {
                             opacity: [0.1, 0.3, 0.1]
                         }}
                         transition={{ duration: 18, repeat: Infinity, ease: "linear" }}
-                        className="absolute -top-1/4 -left-1/4 w-[1000px] h-[1000px] bg-[radial-gradient(circle_at_center,_white_0%,_transparent_70%)] opacity-20 blur-[140px]"
+                        className="absolute -top-1/4 -left-1/4 w-[1000px] h-[1000px] bg-[radial-gradient(circle_at_center,white_0%,transparent_70%)] opacity-20 blur-[140px]"
                     />
                 </div>
 
@@ -84,7 +84,7 @@ export default function Contact() {
                                         <Mail size={24} />
                                     </div>
                                     <div className="pt-2">
-                                        <h4 className="text-xl font-bold mb-1 font-heading uppercase tracking-widest text-xs opacity-50">Email Inquiry</h4>
+                                        <h4 className="text-xl font-bold mb-1 font-heading uppercase tracking-widest opacity-50">Email Inquiry</h4>
                                         <p className="text-2xl font-bold font-heading">hello@arzaqinsights.com</p>
                                         <div className="flex items-center space-x-2 mt-4 text-sm font-bold opacity-40">
                                             <div className="w-1.5 h-1.5 bg-foreground rounded-full" />
@@ -104,7 +104,7 @@ export default function Contact() {
                                         <MessageSquare size={24} />
                                     </div>
                                     <div className="pt-2">
-                                        <h4 className="text-xl font-bold mb-1 font-heading uppercase tracking-widest text-xs opacity-50">Strategy session</h4>
+                                        <h4 className="text-xl font-bold mb-1 font-heading uppercase tracking-widest opacity-50">Strategy session</h4>
                                         <p className="text-2xl font-bold font-heading">Book Technical Discovery</p>
                                         <button className="flex items-center space-x-2 font-bold mt-4 hover:opacity-100 opacity-60 transition-opacity">
                                             <span>VIEW CALENDAR</span>
@@ -124,7 +124,7 @@ export default function Contact() {
                                         <MapPin size={24} />
                                     </div>
                                     <div className="pt-2">
-                                        <h4 className="text-xl font-bold mb-1 font-heading uppercase tracking-widest text-xs opacity-50">Global Hubs</h4>
+                                        <h4 className="text-xl font-bold mb-1 font-heading uppercase tracking-widest opacity-50">Global Hubs</h4>
                                         <p className="text-lg font-bold font-heading opacity-80 leading-relaxed">United Arab Emirates <br /> United Kingdom</p>
                                     </div>
                                 </motion.div>
@@ -195,7 +195,7 @@ export default function Contact() {
                                         <Magnetic>
                                             <button
                                                 disabled={loading}
-                                                className="group relative w-full bg-primary text-background py-6 rounded-[2rem] font-black text-xl overflow-hidden transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-50 font-heading tracking-tight"
+                                                className="group relative w-full bg-primary text-background py-6 rounded-4xl font-black text-xl overflow-hidden transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-50 font-heading tracking-tight"
                                             >
                                                 <span className="relative z-10 flex items-center justify-center space-x-3">
                                                     <span>{loading ? "INITIALIZING..." : "SEND BUSINESS INQUIRY"}</span>

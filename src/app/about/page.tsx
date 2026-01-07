@@ -19,7 +19,7 @@ export default function About() {
                             opacity: [0.2, 0.4, 0.2]
                         }}
                         transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
-                        className="absolute top-0 right-0 w-[800px] h-[800px] bg-[radial-gradient(circle_at_center,_white_0%,_transparent_70%)] opacity-20 blur-[120px]"
+                        className="absolute top-0 right-0 w-[800px] h-[800px] bg-[radial-gradient(circle_at_center,white_0%,transparent_70%)] opacity-20 blur-[120px]"
                     />
                 </div>
 
